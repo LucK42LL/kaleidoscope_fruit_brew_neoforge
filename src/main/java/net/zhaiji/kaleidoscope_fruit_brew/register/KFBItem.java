@@ -6,9 +6,10 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredRegister.Items;
 
 public class KFBItem {
-   public static final DeferredRegister.Items ITEM = DeferredRegister.createItems("kaleidoscope_fruit_brew");
+   public static final Items ITEM = DeferredRegister.createItems("kaleidoscope_fruit_brew");
    public static final DeferredItem<Item> BAYBERRY_BUCKET = ITEM.register("bayberry_bucket", () -> new JuiceBucketItem(KFBFluid.BAYBERRY_JUICE));
    public static final DeferredItem<Item> BLUEBERRY_BUCKET = ITEM.register("blueberry_bucket", () -> new JuiceBucketItem(KFBFluid.BLUEBERRY_JUICE));
    public static final DeferredItem<Item> CACTUS_BUCKET = ITEM.register("cactus_bucket", () -> new JuiceBucketItem(KFBFluid.CACTUS_JUICE));

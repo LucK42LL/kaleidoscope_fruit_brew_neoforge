@@ -12,7 +12,7 @@ import net.zhaiji.kaleidoscope_fruit_brew.register.KFBFluid;
 import net.zhaiji.kaleidoscope_fruit_brew.register.KFBItem;
 import org.slf4j.Logger;
 
-@Mod(KaleidoscopeFruitBrew.MOD_ID)
+@Mod("kaleidoscope_fruit_brew")
 public class KaleidoscopeFruitBrew {
    public static final String MOD_ID = "kaleidoscope_fruit_brew";
    public static final Logger LOGGER = LogUtils.getLogger();
@@ -28,6 +28,6 @@ public class KaleidoscopeFruitBrew {
    }
 
    public static ResourceLocation of(String path) {
-      return ResourceLocation.fromNamespaceAndPath(MOD_ID, path);
+      return ResourceLocation.fromNamespaceAndPath("kaleidoscope_fruit_brew", path);
    }
 }
