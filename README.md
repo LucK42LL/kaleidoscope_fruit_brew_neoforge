@@ -27,3 +27,5 @@ NeoForged Discord: https://discord.neoforged.net/
 Special Thanks to zhaijineet who is the original moder
 
 I'm only updated the mod for NeoForge 1.21
+
+Link for the original mod: https://github.com/zhaijineet/KaleidoscopeFruitBrew
