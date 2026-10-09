@@ -1,0 +1,51 @@
+package net.zhaiji.kaleidoscope_fruit_brew.register;
+
+import com.github.ysbbbbbb.kaleidoscopetavern.item.DrinkBlockItem;
+import com.github.ysbbbbbb.kaleidoscopetavern.item.JuiceBucketItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredRegister;
+
+public class KFBItem {
+   public static final DeferredRegister.Items ITEM = DeferredRegister.createItems("kaleidoscope_fruit_brew");
+   public static final DeferredItem<Item> BAYBERRY_BUCKET = ITEM.register("bayberry_bucket", () -> new JuiceBucketItem(KFBFluid.BAYBERRY_JUICE));
+   public static final DeferredItem<Item> BLUEBERRY_BUCKET = ITEM.register("blueberry_bucket", () -> new JuiceBucketItem(KFBFluid.BLUEBERRY_JUICE));
+   public static final DeferredItem<Item> CACTUS_BUCKET = ITEM.register("cactus_bucket", () -> new JuiceBucketItem(KFBFluid.CACTUS_JUICE));
+   public static final DeferredItem<Item> CRANBERRY_BUCKET = ITEM.register("cranberry_bucket", () -> new JuiceBucketItem(KFBFluid.CRANBERRY_JUICE));
+   public static final DeferredItem<Item> DURIAN_BUCKET = ITEM.register("durian_bucket", () -> new JuiceBucketItem(KFBFluid.DURIAN_JUICE));
+   public static final DeferredItem<Item> FIG_BUCKET = ITEM.register("fig_bucket", () -> new JuiceBucketItem(KFBFluid.FIG_JUICE));
+   public static final DeferredItem<Item> HAMIMELON_BUCKET = ITEM.register("hamimelon_bucket", () -> new JuiceBucketItem(KFBFluid.HAMIMELON_JUICE));
+   public static final DeferredItem<Item> HAWBERRY_BUCKET = ITEM.register("hawberry_bucket", () -> new JuiceBucketItem(KFBFluid.HAWBERRY_JUICE));
+   public static final DeferredItem<Item> KIWI_BUCKET = ITEM.register("kiwi_bucket", () -> new JuiceBucketItem(KFBFluid.KIWI_JUICE));
+   public static final DeferredItem<Item> LEMON_BUCKET = ITEM.register("lemon_bucket", () -> new JuiceBucketItem(KFBFluid.LEMON_JUICE));
+   public static final DeferredItem<Item> LYCHEE_BUCKET = ITEM.register("lychee_bucket", () -> new JuiceBucketItem(KFBFluid.LYCHEE_JUICE));
+   public static final DeferredItem<Item> MANGO_BUCKET = ITEM.register("mango_bucket", () -> new JuiceBucketItem(KFBFluid.MANGO_JUICE));
+   public static final DeferredItem<Item> MANGOSTEEN_BUCKET = ITEM.register("mangosteen_bucket", () -> new JuiceBucketItem(KFBFluid.MANGOSTEEN_JUICE));
+   public static final DeferredItem<Item> ORANGE_BUCKET = ITEM.register("orange_bucket", () -> new JuiceBucketItem(KFBFluid.ORANGE_JUICE));
+   public static final DeferredItem<Item> PEACH_BUCKET = ITEM.register("peach_bucket", () -> new JuiceBucketItem(KFBFluid.PEACH_JUICE));
+   public static final DeferredItem<Item> PEAR_BUCKET = ITEM.register("pear_bucket", () -> new JuiceBucketItem(KFBFluid.PEAR_JUICE));
+   public static final DeferredItem<Item> PERSIMMON_BUCKET = ITEM.register("persimmon_bucket", () -> new JuiceBucketItem(KFBFluid.PERSIMMON_JUICE));
+   public static final DeferredItem<Item> PINEAPPLE_BUCKET = ITEM.register("pineapple_bucket", () -> new JuiceBucketItem(KFBFluid.PINEAPPLE_JUICE));
+   public static final DeferredItem<Item> APPLE_BUCKET = ITEM.register("apple_bucket", () -> new JuiceBucketItem(KFBFluid.APPLE_JUICE));
+   public static final DeferredItem<Item> BAYBERRY_WINE = ITEM.register("bayberry_wine", () -> new DrinkBlockItem((Block)KFBBlock.BAYBERRY_WINE.get()));
+   public static final DeferredItem<Item> BLUEBERRY_WINE = ITEM.register("blueberry_wine", () -> new DrinkBlockItem((Block)KFBBlock.BLUEBERRY_WINE.get()));
+   public static final DeferredItem<Item> CRANBERRY_WINE = ITEM.register("cranberry_wine", () -> new DrinkBlockItem((Block)KFBBlock.CRANBERRY_WINE.get()));
+   public static final DeferredItem<Item> DURIAN_WINE = ITEM.register("durian_wine", () -> new DrinkBlockItem((Block)KFBBlock.DURIAN_WINE.get()));
+   public static final DeferredItem<Item> FIG_WINE = ITEM.register("fig_wine", () -> new DrinkBlockItem((Block)KFBBlock.FIG_WINE.get()));
+   public static final DeferredItem<Item> GLOWBERRY_WINE = ITEM.register("glowberry_wine", () -> new DrinkBlockItem((Block)KFBBlock.GLOWBERRY_WINE.get()));
+   public static final DeferredItem<Item> HAMIMELON_WINE = ITEM.register("hamimelon_wine", () -> new DrinkBlockItem((Block)KFBBlock.HAMIMELON_WINE.get()));
+   public static final DeferredItem<Item> HAWBERRY_WINE = ITEM.register("hawberry_wine", () -> new DrinkBlockItem((Block)KFBBlock.HAWBERRY_WINE.get()));
+   public static final DeferredItem<Item> KIWI_WINE = ITEM.register("kiwi_wine", () -> new DrinkBlockItem((Block)KFBBlock.KIWI_WINE.get()));
+   public static final DeferredItem<Item> LEMON_WINE = ITEM.register("lemon_wine", () -> new DrinkBlockItem((Block)KFBBlock.LEMON_WINE.get()));
+   public static final DeferredItem<Item> LYCHEE_WINE = ITEM.register("lychee_wine", () -> new DrinkBlockItem((Block)KFBBlock.LYCHEE_WINE.get()));
+   public static final DeferredItem<Item> MANGO_WINE = ITEM.register("mango_wine", () -> new DrinkBlockItem((Block)KFBBlock.MANGO_WINE.get()));
+   public static final DeferredItem<Item> MANGOSTEEN_WINE = ITEM.register("mangosteen_wine", () -> new DrinkBlockItem((Block)KFBBlock.MANGOSTEEN_WINE.get()));
+   public static final DeferredItem<Item> ORANGE_WINE = ITEM.register("orange_wine", () -> new DrinkBlockItem((Block)KFBBlock.ORANGE_WINE.get()));
+   public static final DeferredItem<Item> PEACH_WINE = ITEM.register("peach_wine", () -> new DrinkBlockItem((Block)KFBBlock.PEACH_WINE.get()));
+   public static final DeferredItem<Item> PEAR_WINE = ITEM.register("pear_wine", () -> new DrinkBlockItem((Block)KFBBlock.PEAR_WINE.get()));
+   public static final DeferredItem<Item> PERSIMMON_WINE = ITEM.register("persimmon_wine", () -> new DrinkBlockItem((Block)KFBBlock.PERSIMMON_WINE.get()));
+   public static final DeferredItem<Item> PINEAPPLE_WINE = ITEM.register("pineapple_wine", () -> new DrinkBlockItem((Block)KFBBlock.PINEAPPLE_WINE.get()));
+   public static final DeferredItem<Item> TEQUILA = ITEM.register("tequila", () -> new DrinkBlockItem((Block)KFBBlock.TEQUILA.get()));
+   public static final DeferredItem<Item> APPLE_CIDER = ITEM.register("apple_cider", () -> new DrinkBlockItem((Block)KFBBlock.APPLE_CIDER.get()));
+}
