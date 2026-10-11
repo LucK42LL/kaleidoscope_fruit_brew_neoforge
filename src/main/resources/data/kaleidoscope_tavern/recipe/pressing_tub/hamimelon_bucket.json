@@ -3,6 +3,6 @@
   "fluid": "kaleidoscope_fruit_brew:hamimelon_juice",
   "fluid_amount": 125,
   "ingredient": {
-    "tag": "forge:fruits/cantaloupe"
+    "tag": "c:foods/fruits/cantaloupe"
   }
 }

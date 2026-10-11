@@ -22,7 +22,7 @@ license="MIT + CC BY-NC-SA 4.0"
 
 # The modid of the mod
 modId="kaleidoscope_fruit_brew" #mandatory
-version="1.0.2" #mandatory
+version="${mod_version}" #mandatory
 displayName="Kaleidoscope Fruit Brew" #mandatory
 
 # A URL to query for updates for this mod. See the JSON update specification https://docs.neoforged.net/docs/misc/updatechecker/
