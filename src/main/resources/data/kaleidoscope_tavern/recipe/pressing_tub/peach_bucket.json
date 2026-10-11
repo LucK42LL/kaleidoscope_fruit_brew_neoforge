@@ -3,6 +3,6 @@
   "fluid": "kaleidoscope_fruit_brew:peach_juice",
   "fluid_amount": 125,
   "ingredient": {
-    "tag": "forge:fruits/peach"
+    "tag": "c:foods/fruits/peach"
   }
 }
